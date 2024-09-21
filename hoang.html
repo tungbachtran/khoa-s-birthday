@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-1 {
+            width: 100%;
+            max-width: 1180px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: #DEE8EB;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .section-1 .loichuc{
+            width: 400px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        div img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        div .vid {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        div .vid video {
+            width: 100%;
+            max-width: 320px;
+            border: 1px solid black;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        /* Responsive cho iPhone 14 */
+        @media only screen and (max-width: 1170px) {
+            .section-1 {
+                width: 100%;
+                padding: 10px;
+            }
+            div img {
+                width: 150px;
+                height: 150px;
+            }
+            div .vid video {
+                max-width: 100%;
+                height: auto;
+            }
+            .content h1, .content h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section-1">
+        <img src="img/hoang.jpg" alt="">
+        <div class="content">
+            <h1>Việt Hoàng</h1>
+            
+            
+        </div>
+        <img src="img/hoang1.jpg" alt="" class="loichuc">
+    </div>
+</body>
+</html>
+
+</body>
+</html>
